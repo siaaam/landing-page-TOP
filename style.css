@@ -39,6 +39,12 @@ a:hover {
   color: white;
 }
 
+.btn-secondary {
+  background: #3882f6;
+  color: white;
+  border: 3px solid white;
+}
+
 .container {
   max-width: 1170px;
   margin: 0 auto;
@@ -154,4 +160,43 @@ a:hover {
   display: block;
   font-size: 20px;
   color: #1f2937;
+}
+
+/* cta-styling */
+
+.cta {
+  padding: 100px 0;
+}
+
+.cta-box {
+  background: #3882f6;
+  height: 100px;
+  width: 1170px;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 10px;
+}
+
+.text-container h2 {
+  color: #f9faf8;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.text-container p {
+  color: #1f2937;
+}
+
+/* footer styling */
+
+.footer {
+  background: #1f2937;
+  padding: 50px 0;
+}
+
+.footer-text {
+  text-align: center;
+  color: #e5e7eb;
+  font-size: 18px;
 }
